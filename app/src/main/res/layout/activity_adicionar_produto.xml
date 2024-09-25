@@ -7,8 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
-
+    tools:context=".AdicionarProduto">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -149,12 +148,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="ADD" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
         <Button
-            android:id="@+id/btnTela"
+            android:id="@+id/btnVoltarAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Segunda tela" />
+            android:text="Voltar" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -200,6 +205,5 @@
 
         </TableLayout>
     </LinearLayout>
-
 
 </LinearLayout>
